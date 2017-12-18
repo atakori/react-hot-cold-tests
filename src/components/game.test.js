@@ -43,8 +43,6 @@ describe('<Game />', () => {
 		wrapper.instance().generateAuralUpdate();
 
 		expect(wrapper.state('auralStatus')).toEqual(`Here's the status of the game right now: You're Hot! You've made 3 guesses. In order of most- to least-recent, they are: 88, 39, 25`);
-
-
 	})
 
 })
